@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col cols="12" md="12">
-      <v-list color="#f4f5fc">
+      <v-list color="#fff5">
         <v-subheader class="font-weight-bold">{{ title }}</v-subheader>
         <v-col v-for="task in tasklist" :key="task.id" cols="12" class="pt-0">
           <v-card>
@@ -64,7 +64,7 @@ export default {
 
 <style>
 .theme--light.v-label {
-  color: #000;
+  color: rgb(14, 195, 240);
 }
 .v-input--selection-controls:not(.v-input--hide-details) .v-input__slot {
   margin-bottom: 0px;
