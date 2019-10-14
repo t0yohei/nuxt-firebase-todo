@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import webpack from 'webpack'
 
 export default {
   mode: 'spa',
@@ -71,6 +72,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {},
+    plugins: [
+      new webpack.ProvidePlugin({
+        _: 'lodash'
+      })
+    ]
   }
 }
