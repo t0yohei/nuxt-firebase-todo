@@ -2,7 +2,7 @@
 
 https://github.com/t0yohei/nuxt-firebase-todo/commit/256243c7ee8c231f1823c6fff325772e45ff542e までは下記の記事を参考にして作成。
 
-[Nuxt.js - Firebaseを使ったToDoアプリの作成](https://qiita.com/so_heee_/items/200beb014c8a8ad100d1#ui%E3%81%AE%E8%AA%BF%E6%95%B4) を写経して作成
+[Nuxt.js - Firebaseを使ったToDoアプリの作成](https://qiita.com/so_heee_/items/200beb014c8a8ad100d1#ui%E3%81%AE%E8%AA%BF%E6%95%B4) 
 
 ## 環境構築メモ
 ### nuxt setup
